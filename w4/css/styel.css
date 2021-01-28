@@ -1,0 +1,23 @@
+table {
+  border: none;
+}
+
+td {
+  border-bottom: solid grey 2px;
+  border-right: solid grey 2px;
+  width: 100px;
+  height: 100px;
+}
+
+td:nth-child(3n){
+  border-right: 0;
+}
+
+tr:last-child td{
+  border-bottom: 0;
+}
+
+/* tr{
+  border-top: solid grey 2px;
+  border-bottom: solid grey 2px;
+} */
